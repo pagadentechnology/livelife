@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Preloader Demo 6</title>
+	<style type="text/css">
+.preload-wrapper {
+	z-index:9999999999;
+	position: fixed;
+	top:0;
+	left: 0;
+	right: 0;
+	bottom:0;
+	background:#fff;
+	overflow: hidden;
+}
+#preloader6{
+    position:relative;
+    width: 42px;
+    height: 42px;
+    margin:23% auto;
+    animation: preloader_6 5s infinite linear;
+    -webkit-animation: preloader_6 5s infinite linear;
+}
+#preloader6 span{
+    width:20px;
+    height:20px;
+    position:absolute;
+    background:red;
+    display:block;
+    animation: preloader_6_span 1s infinite linear;
+    -webkit-animation: preloader_6_span 1s infinite linear;    
+}
+#preloader6 span:nth-child(1){
+background:#2ecc71;
+ 
+}
+#preloader6 span:nth-child(2){
+left:22px;
+background:#9b59b6;
+    animation-delay: .2s;
+    -webkit-animation-delay: .2s;
+}
+#preloader6 span:nth-child(3){
+top:22px;
+background:#3498db;
+    animation-delay: .4s;
+    -webkit-animation-delay: .4s;
+}
+#preloader6 span:nth-child(4){
+top:22px;
+left:22px;
+background:#f1c40f;
+    animation-delay: .6s;
+    -webkit-animation-delay: .6s;
+}
+@keyframes preloader_6 {
+   0% { transform:rotate(0deg); }
+   50% { transform:rotate(180deg); }
+   100% { transform:rotate(360deg); }
+}
+@-webkit-keyframes preloader_6 {
+   0% { -webkit-transform:rotate(0deg); }
+   50% { -webkit-transform:rotate(180deg); }
+   100% { -webkit-transform:rotate(360deg); }
+}
+@-webkit-keyframes preloader_6_span {
+   0% { -webkit-transform:scale(1); }
+   50% { -webkit-transform:scale(0.5); }
+   100% { -webkit-transform:scale(1); }
+}
+@keyframes preloader_6_span {
+   0% { transform:scale(1); }
+   50% { transform:scale(0.5); }
+   100% { transform:scale(1); }
+}
+@-webkit-keyframes preloader_6_span {
+   0% { -webkit-transform:scale(1); }
+   50% { -webkit-transform:scale(0.5); }
+   100% { -webkit-transform:scale(1); }
+}
+	</style>
+</head>
+<body>
+<div class="preload-wrapper">
+<div id="preloader6">
+           <span></span>
+           <span></span>
+           <span></span>
+           <span></span>
+       </div>
+
+</div>
+
+
+</body>
+</html>

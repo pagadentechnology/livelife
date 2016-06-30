@@ -1,0 +1,57 @@
+<android.support.percent.PercentRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:padding="10dp"
+    android:id="@+id/wrapper"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="150dp">
+
+    <TextView
+        app:layout_widthPercent="40%"
+        android:id="@+id/tv_jam"
+        android:textSize="@dimen/medium"
+        android:gravity="center_horizontal"
+        android:background="@color/color_text_light"
+        android:padding="10dp"
+        android:scaleType="centerCrop"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        />
+
+    <LinearLayout
+        app:layout_widthPercent="60%"
+        android:padding="10dp"
+        android:layout_toRightOf="@id/tv_jam"
+        android:background="@color/colorBgLight"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="150dp">
+
+        <TextView
+            android:id="@+id/tv_kategori"
+            android:textSize="@dimen/small"
+            android:textColor="@color/color_text_dark"
+            android:maxLines="2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/tv_judul"
+            android:textSize="@dimen/small"
+            android:textColor="@color/color_text_dark"
+            android:maxLines="2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/tv_joined"
+            android:maxLines="3"
+            android:layout_gravity="bottom|left"
+            android:gravity="bottom|left"
+            android:textColor="@color/color_text_dark"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+    </LinearLayout>
+
+</android.support.percent.PercentRelativeLayout>

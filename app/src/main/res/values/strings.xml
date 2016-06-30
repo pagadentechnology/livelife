@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Nokia Live</string>
+
+    <string name="search">Search Event</string>
+    <string name="no_comment">No Comment Yet</string>
+    <string name="app_id_new">1766918830209252</string>
+    <string name="lorem">	SMP Negeri 247 Jakarta merupakan Sekolah Menengah Pertama yang telah berdiri sejak lama dan menghasilkan lulusan berkompeten dan berguna bagi Agama, Bangsa dan Negara. Para alumni yang telah menuntut ilmu dan lulus dari SMP Negeri 247 Jakarta banyak yang menyebar ke berbagai daerah, melanjutkan studi di perguruan tinggi negeri maupun swasta. Selain melanjutkan studi ke perguruan tinggi, banyak para alumni yang telah bekerja dengan beragam profesi dan tersebar di ruang lingkup Jakarta serta di luar Pulau Jawa.
+Seiring pergantian waktu, perasaan rindu terhadap SMP Negri 247 Jakarta tercinta tumbuh subur di hati para alumni SMP Negeri 247 Jakarta. Tidak terasa sudah 13 tahun lamanya Beragam kenangan manis dengan guru tercinta ataupun kenangan indah bersama teman-teman tertanam erat di relung hati dan terbingkai dalam lembaran-lembaran memori manis di pikiran para alumni. Selain itu, adanya keterbatasan jarak dan waktu menyebabkan para alumni hanya bisa mendengar cerita SMP Negeri 247 Jakarta menjadi sekolah yang terus maju menghasilkan lulusan yang berkompeten dan mampu bersaing di dunia pendidikan.</string>
+
+    <string-array name="regions_single">
+        <item>Jakarta</item>
+    </string-array>
+
+    <string-array name="tipe_event">
+        <item>Regular</item>
+        <item>Irregular</item>
+    </string-array>
+</resources>
